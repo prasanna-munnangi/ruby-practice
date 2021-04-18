@@ -1,3 +1,5 @@
+#!/usr/bin/env ruby
+
 # Methods return the last operation's value by default
 # return: return a value and exit the method
 # Useful in conditional statements and loops

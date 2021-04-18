@@ -1,3 +1,5 @@
+#!/usr/bin/env ruby
+
 # Numbers
 # * Integers
 # * Floats
