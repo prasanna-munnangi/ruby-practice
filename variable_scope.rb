@@ -1,3 +1,5 @@
+#!/usr/bin/env ruby
+
 # Global variable    - $variable
 # Class variable    - @@variable
 # Instance variable - @variable

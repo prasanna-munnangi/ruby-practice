@@ -1,3 +1,5 @@
+#!/usr/bin/env ruby
+
 price = 12.34
 tax = 0.66
 price + tax
