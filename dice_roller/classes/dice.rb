@@ -15,4 +15,4 @@ class Dice
         rand_value = rand(6)
         @value = rand_value + 1
     end
-end 
+end
