@@ -16,3 +16,16 @@ puts "--------"
 pig = Animal.new({noise: 'Oink!'})
 # pig.noise = 'Oink!'
 puts pig.noise
+
+puts "----------"
+
+Animal.species.each do |type|
+    puts type
+end
+
+smith = Animal.create_a_pig
+puts smith.noise
+
+puts "-------"
+
+puts Animal.total_animals
