@@ -1,7 +1,11 @@
 #!/usr/bin/env ruby
 
+require_relative 'modules/nameable'
 require_relative 'classes/person'
 require_relative 'classes/animal'
+
+require_relative 'classes/chef'
+require_relative 'classes/amateur_chef'
 
 
 
@@ -29,3 +33,12 @@ puts smith.noise
 puts "-------"
 
 puts Animal.total_animals
+
+
+chef = Chef.new
+chef.make_dinner
+
+puts '*' * 5
+
+chef = AmateurChef.new
+chef.make_dinner
