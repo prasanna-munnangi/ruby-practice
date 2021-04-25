@@ -62,5 +62,3 @@ rescue => e
     puts "#{e.class}: #{e.message}"
     puts "The array provided: #{e.array}"
 end
-
-
